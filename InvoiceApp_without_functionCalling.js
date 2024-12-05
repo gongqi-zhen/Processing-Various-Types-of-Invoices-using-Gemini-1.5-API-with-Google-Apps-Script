@@ -58,7 +58,7 @@ class InvoiceApp {
       `"title or description of item", "number of items", "unit cost", "total cost"`,
       ``,
       `If the requirement information is not found, set "no value".`,
-      `Return only raw JSON object without markdown. No markdown format. No markcodn tags.`,
+      `Return only raw JSON object without markdown. No markdown format. No markdown tags.`,
     ].join("\n");
     const res = this.doGemini_({ q, obj });
 
